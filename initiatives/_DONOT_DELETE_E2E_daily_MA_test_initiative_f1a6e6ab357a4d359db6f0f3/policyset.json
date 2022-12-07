@@ -1,0 +1,26 @@
+{
+ "properties": {
+  "displayName": "[DONOT DELETE]E2E daily MA test initiative",
+  "policyType": "Custom",
+  "description": "This initiative is used for the daily E2E test automation.",
+  "metadata": {
+   "createdBy": "b7a26563-d558-4cf1-8286-36940a84f3e9",
+   "createdOn": "2022-01-12T21:35:44.1873151Z",
+   "updatedBy": "b7a26563-d558-4cf1-8286-36940a84f3e9",
+   "updatedOn": "2022-02-10T09:13:26.10804Z"
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "[MA E2E daily test] Windows Defender Exploit Guard should be enabled on your machines_1",
+    "policyDefinitionId": "/subscriptions/749b3ae2-9109-4e10-86cc-8f998779feee/providers/Microsoft.Authorization/policyDefinitions/19b575c8-64bf-48eb-8114-d62da25572be",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/749b3ae2-9109-4e10-86cc-8f998779feee/providers/Microsoft.Authorization/policySetDefinitions/f1a6e6ab357a4d359db6f0f3",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "f1a6e6ab357a4d359db6f0f3"
+}
