@@ -1,0 +1,37 @@
+{
+ "properties": {
+  "displayName": "[DINE DoNotDelete] DINE Policies for E2E Tests",
+  "policyType": "Custom",
+  "description": "",
+  "metadata": {
+   "category": "Guest Configuration",
+   "createdBy": "cf38f268-bf7b-4d70-ad46-c7e6bea34eaa",
+   "createdOn": "2021-07-20T18:33:33.9664076Z",
+   "updatedBy": "df3dafc6-8af5-4ed7-b5e3-ea815fb42b50",
+   "updatedOn": "2022-12-07T00:11:26.2728293Z"
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Configure time zone on Windows machines._1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/6141c932-9384-44c6-a395-59e4c057d7c9",
+    "parameters": {
+     "TimeZone": {
+      "value": "(UTC-10:00) Hawaii"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Configure secure communication protocols(TLS 1.1 or TLS 1.2) on Windows servers_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/828ba269-bf7f-4082-83dd-633417bc391d",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/749b3ae2-9109-4e10-86cc-8f998779feee/providers/Microsoft.Authorization/policySetDefinitions/1cc9d815734a440a9279552b",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "1cc9d815734a440a9279552b"
+}
